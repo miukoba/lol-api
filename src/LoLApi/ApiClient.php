@@ -38,6 +38,7 @@ class ApiClient
     const REGION_OCE = 'oce';
     const REGION_RU = 'ru';
     const REGION_TR = 'tr';
+    const REGION_JP = 'jp';
 
     /**
      * @var array
@@ -52,7 +53,8 @@ class ApiClient
         self::REGION_NA,
         self::REGION_OCE,
         self::REGION_RU,
-        self::REGION_TR
+        self::REGION_TR,
+        self::REGION_JP
     ];
 
     /**
